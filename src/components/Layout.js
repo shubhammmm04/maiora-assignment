@@ -8,7 +8,7 @@ const Layout = () => {
     <Sidebar />
     <main className="flex-1">
       <div className="p-4">
-        <h1 className="text-2xl font-bold mb-4">User Table</h1>
+        <h1 className="text-2xl font-bold mb-4">Student Leaves</h1>
         <Table  />
       </div>
     </main>

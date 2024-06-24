@@ -34,7 +34,7 @@ const onSubmit=async(e)=>{
   } catch (error) {
     setError('An error occurred. Please try again later.');
   }
-  navigate('/sidebar/table');
+  navigate('/sidebar/academics');
 }
 
 

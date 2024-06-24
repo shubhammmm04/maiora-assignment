@@ -1,20 +1,26 @@
 
 import React from 'react';
+import { GiHamburgerMenu } from "react-icons/gi";
 
 const Sidebar = () => {
   return (
-    <div className="bg-gray-800 text-white w-64 min-h-screen">
+    <div className="bg-[#08183A] text-white w-64 min-h-screen">
       <div className="p-4">
-        <h2 className="text-xl font-bold mb-4">Sidebar</h2>
-        <ul className="space-y-2">
-          <li className="hover:bg-gray-700 p-2 rounded">
-            <a href="/table" className="block">Table</a>
+        <div className='flex justify-between items-center'>
+        <div className='bg-[#F2BA1D] rounded-lg px-4 py-1'>
+        <h2 className="text-xl font-bold ">John Doreamon</h2>
+        </div>
+        <GiHamburgerMenu />
+        </div>
+        <ul className="space-y-2 mt-4">
+          <li className="hover:bg-yellow-500 p-2 rounded">
+            <a href="#" className="block">Go To Super Admin</a>
           </li>
-          <li className="hover:bg-gray-700 p-2 rounded">
-            <a href="#" className="block">Forms</a>
+          <li className="hover:bg-yellow-500 p-2 rounded">
+            <a href="#" className="block">School Management</a>
           </li>
-          <li className="hover:bg-gray-700 p-2 rounded">
-            <a href="#" className="block">Link 3</a>
+          <li className="hover:bg-yellow-500 p-2 rounded">
+            <a href="/sidebar/academics" className="block">Academics</a>
           </li>
         </ul>
       </div>
